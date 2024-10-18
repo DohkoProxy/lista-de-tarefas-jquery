@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas Online</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                Lista de Tarefas Online
+            </h1>
+        </header>
+        <form>
+            <input type="text" id="nome-tarefa-input" required placeholder="Nome da Tarefa">
+            <button type="submit" id="botao-envio">Nova+</button>
+        </form>
+        <ul>
+            
+        </ul>
+        <div id="menu-opcoes" style="display:none; position: absolute;">
+            <button id="concluir">Concluir</button>
+            <button id="corrigir">Corrigir</button>
+            <button id="excluir">Excluir</button>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="./main.js"></script>
+    </div>
+</body>
+</html>
